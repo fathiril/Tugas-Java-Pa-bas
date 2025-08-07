@@ -4,10 +4,11 @@ public class tabunganAyu {
         int tabungan;
 
         for (int hari = 1; hari <= 30; hari++) {
-            tabungan = hari * 1000; // menabung Rp1000 per hari
+            tabungan = hari * 1000;
             saldo += tabungan;
         }
 
         System.out.println("Saldo ayu di hari ke 30: " + saldo);
     }
+
 }
